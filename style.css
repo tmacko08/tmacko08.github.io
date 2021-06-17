@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    
+    }
+
+.coming-soon {
+min-height: 95vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+font-size: medium;
+    }
+
+.countdown {
+        display: flex;
+        justify-content: space-between;  
+        text-align: center;
+    }
+
+.day, .hour, .minute, .second {
+    font-size: 3rem;
+    margin: 50px;
+}
+
+.waiting {
+    width: 50vh;
+}
+.footer {
+    justify-content: right;
+    align-items: right;
+    font-weight: 20;
+    padding: 0;
+    display: flex;
+}
